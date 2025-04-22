@@ -27,7 +27,7 @@ const HeroSection: React.FC = () => {
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 max-w-4xl animate-fadeInUp">
-            Find the perfect{" "}
+            DO NOT Find the perfect{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-purple-800">
               AI model
             </span>{" "}
