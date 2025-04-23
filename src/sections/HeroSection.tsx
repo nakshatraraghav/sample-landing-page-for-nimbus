@@ -36,16 +36,16 @@ const HeroSection: React.FC = () => {
 
           <p className="text-xl text-gray-600 max-w-2xl mb-8 animate-fadeInUp animation-delay-300">
             Access thousands of state-of-the-art language models, fine-tuned for
-            your specific needs, all in one marketplace.
+            your specific needs
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 animate-fadeInUp animation-delay-600">
             <Button size="lg" className="gap-2">
-              Browse Models
+              Browse
               <ArrowRight size={18} />
             </Button>
             <Button size="lg" variant="outline" className="gap-2">
-              Developer Documentation
+              Docs
             </Button>
           </div>
         </div>
