@@ -54,12 +54,9 @@ const HeroSection: React.FC = () => {
               <Zap size={20} className="text-blue-800" />
             </div>
             <h3 className="font-semibold text-gray-900 mb-2">
-              High Performance
+              LOW Performance
             </h3>
-            <p className="text-gray-600 text-sm">
-              Access models with state-of-the-art accuracy and lightning-fast
-              inference times.
-            </p>
+            <p className="text-gray-600 text-sm"></p>
           </div>
 
           <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-gray-200 flex flex-col items-center text-center animate-fadeInUp animation-delay-1000">
@@ -67,7 +64,7 @@ const HeroSection: React.FC = () => {
               <BrainCircuit size={20} className="text-purple-800" />
             </div>
             <h3 className="font-semibold text-gray-900 mb-2">
-              Specialized Models
+              NOT SPECIALIZED Models
             </h3>
             <p className="text-gray-600 text-sm">
               Find models fine-tuned for your specific domain or use case.
