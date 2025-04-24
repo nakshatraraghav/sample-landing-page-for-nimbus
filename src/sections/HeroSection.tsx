@@ -11,10 +11,8 @@ import Button from "../components/Button";
 const HeroSection: React.FC = () => {
   return (
     <section className="relative pt-24 md:pt-32 pb-16 md:pb-24 overflow-hidden">
-      {/* Gradient background */}
       <div className="absolute inset-0 bg-gradient-to-b from-blue-50 to-white pointer-events-none" />
 
-      {/* Animated circles */}
       <div className="absolute top-20 right-1/4 w-72 h-72 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob" />
       <div className="absolute top-40 right-1/3 w-72 h-72 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000" />
       <div className="absolute -top-10 left-1/4 w-72 h-72 bg-teal-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000" />
@@ -23,7 +21,7 @@ const HeroSection: React.FC = () => {
         <div className="flex flex-col items-center text-center mb-12 md:mb-16">
           <div className="inline-flex items-center px-3 py-1 rounded-full bg-blue-100 text-blue-800 mb-6 text-sm font-medium animate-fadeInDown">
             <Sparkles size={14} className="mr-1" />
-            <span>Discover the future of AI models</span>
+            <span>you should not discover the future of AI</span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 max-w-4xl animate-fadeInUp">
