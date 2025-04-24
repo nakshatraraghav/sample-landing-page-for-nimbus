@@ -21,7 +21,7 @@ const HeroSection: React.FC = () => {
         <div className="flex flex-col items-center text-center mb-12 md:mb-16">
           <div className="inline-flex items-center px-3 py-1 rounded-full bg-blue-100 text-blue-800 mb-6 text-sm font-medium animate-fadeInDown">
             <Sparkles size={14} className="mr-1" />
-            <span>FUTURE OF AI IS NOT BRUH BRUH BRUH GREAT BRUH BRUH BRUH</span>
+            <span>DEMO FOR </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 max-w-4xl animate-fadeInUp">
